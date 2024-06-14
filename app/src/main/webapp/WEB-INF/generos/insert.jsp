@@ -8,6 +8,7 @@
     </head>
     <body>
         <div class="container">
+            <br>
             <h1>Novo Gênero</h1>
             <form action="/generos/insert" method="post">
                 <div>

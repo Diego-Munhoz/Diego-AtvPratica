@@ -1,20 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib uri="jakarta.tags.core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>Remover Gênero</title>
+        <title>Remover Jogo</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <div class="container">
             <br>
-            <h1>Remover Gênero</h1>
-            <p>Tem certeza que deseja remover o gênero ${genero.nome} ?</p>
-            <form action="/generos/delete" method="post">
-                <input type="hidden" name="id" value="${genero.id}" />
-                
-                <a href="/generos/list" class="btn btn-secondary">Voltar</a>
+            <h1>Remover Jogo</h1>
+            <p>Tem certeza que deseja remover o jogo ${jogo.titulo} ?</p>
+            <form action="/jogos/delete" method="post">
+                <input type="hidden" name="id" value="${jogo.id}" />
+
+                <br />
+                <a href="/jogos/list" class="btn btn-secondary">Voltar</a>
                 <button type="submit" class="btn btn-danger">Remover</button>
             </form>
         </div>

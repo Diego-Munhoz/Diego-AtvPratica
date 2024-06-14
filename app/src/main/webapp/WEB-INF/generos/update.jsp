@@ -8,6 +8,7 @@
     </head>
     <body>
         <div class="container">
+            <br>
             <h1>Editar Gênero</h1>
             <form action="/generos/update" method="post">
                 <input type="hidden" name="id" value="${genero.id}" />
@@ -17,7 +18,7 @@
                     <br />
                 </div>
                 <a href="/generos/list" class="btn btn-secondary">Voltar</a>
-                <button type="submit" class="btn btn-warning">Salvar</button>
+                <button type="submit" class="btn btn-success">Salvar Alterações</button>
             </form>
         </div>
     </body>

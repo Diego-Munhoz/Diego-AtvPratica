@@ -9,6 +9,7 @@
     </head>
     <body>
         <div class="container">
+            <br>
             <h1>Gêneros</h1>
             <a href="/generos/insert" class="btn btn-primary">Novo Gênero</a>
             <table class="table">
